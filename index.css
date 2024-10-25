@@ -30,7 +30,9 @@ i{
 }
 
 /* layout */
-
+.fa-trash:hover {
+    color: red;
+}
 main, header{
     width: 290px;
     margin: 0 auto;
@@ -51,6 +53,11 @@ header{
     color: black;
     border: 1px solid #555;
     font-size: 15px;
+}
+.reply-btn:hover {
+    color: white;
+    border-color: #1da1f2;
+    background-color: #1da1f2;
 }
 /* textareas + btn */
 .reply-textarea {
